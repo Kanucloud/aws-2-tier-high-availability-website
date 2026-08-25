@@ -1,0 +1,3595 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Chella Hairs</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <!-- fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i"
+    />
+    <!-- css -->
+    <link
+      rel="stylesheet"
+      href="vendor/bootstrap-4.2.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/owl-carousel-2.3.4/assets/owl.carousel.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- js -->
+    <script src="vendor/jquery-3.3.1/jquery.min.js"></script>
+    <script src="vendor/bootstrap-4.2.1/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/owl-carousel-2.3.4/owl.carousel.min.js"></script>
+    <script src="vendor/nouislider-12.1.0/nouislider.min.js"></script>
+    <script src="js/number.js"></script>
+    <script src="js/main.js"></script>
+    <script src="vendor/svg4everybody-2.1.9/svg4everybody.min.js"></script>
+    <script>
+      svg4everybody();
+    </script>
+    <!-- font - fontawesome -->
+    <link rel="stylesheet" href="vendor/fontawesome-5.6.1/css/all.min.css" />
+    <!-- font - stroyka -->
+    <link rel="stylesheet" href="fonts/stroyka/stroyka.css" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-97489509-6"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-97489509-6");
+    </script>
+  </head>
+  <body>
+
+    <style>
+        /* Reset & Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+       
+
+        /* Centered Preloader Container */
+        #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background-color: #0b0b0b;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+        }
+
+        /* Catchy Text Styling */
+        .loader-text {
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        /* Elegant Pink/Rose Gold accent for Chellahairs */
+        .brand-name {
+            color: #FFD333; 
+            text-shadow: 0 0 15px rgba(255, 105, 180, 0.6);
+            animation: pulse 1.5s infinite alternate;
+        }
+
+        /* Progress Bar Container */
+        .progress-container {
+            width: 280px;
+            background: rgba(255, 255, 255, 0.1);
+            height: 6px;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            margin-bottom: 15px;
+        }
+
+        /* Actual Moving Bar */
+        .progress-bar {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, #ff69b4, #ddad27);
+            box-shadow: 0 0 10px rgba(255, 105, 180, 0.8);
+            border-radius: 10px;
+            transition: width 0.1s linear;
+        }
+
+        /* Percentage Counter */
+        .percentage {
+            color: #a5a5a5;
+            font-size: 1rem;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        /* Subtle glowing animation for the text */
+        @keyframes pulse {
+            from {
+                text-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+            }
+            to {
+                text-shadow: 0 0 25px rgba(255, 105, 180, 0.9), 0 0 10px #ff69b4;
+            }
+        }
+
+        /* Class to fade out preloader when done */
+        .fade-out {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        /* Dummy Main Content Styling */
+        .main-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="loader-text">Loading <span class="brand-name">Chellahairs</span>...</div>
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+        <div class="percentage" id="percentage">0%</div>
+    </div>
+    <!-- Preloader End -->
+
+
+    <!-- JavaScript to Control Progress & Fade Out -->
+    <script>
+        const progressBar = document.getElementById('progress-bar');
+        const percentageText = document.getElementById('percentage');
+        const preloader = document.getElementById('preloader');
+
+        let width = 0;
+        
+        // Simulate page loading speed
+        const loadingInterval = setInterval(() => {
+            if (width >= 100) {
+                clearInterval(loadingInterval);
+                
+                // Add a tiny delay at 100% for smooth visual closure
+                setTimeout(() => {
+                    preloader.classList.add('fade-out');
+                }, 400);
+            } else {
+                // Randomize increment slightly for a realistic feel
+                width += Math.floor(Math.random() * 8) + 2; 
+                if(width > 100) width = 100;
+                
+                progressBar.style.width = width + '%';
+                percentageText.textContent = width + '%';
+            }
+        }, 120); // Speed control (lower number = faster loading)
+    </script>
+    <!-- quickview-modal -->
+    <div
+      id="quickview-modal"
+      class="modal fade"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content"></div>
+      </div>
+    </div>
+    <!-- quickview-modal / end -->
+     <!-- mobilemenu -->
+    <div class="mobilemenu">
+      <div class="mobilemenu__backdrop"></div>
+      <div class="mobilemenu__body">
+        <div class="mobilemenu__header">
+          <div class="mobilemenu__title">Menu</div>
+          <button type="button" class="mobilemenu__close">
+            <svg width="20px" height="20px">
+              <use xlink:href="images/sprite.svg#cross-20"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="mobilemenu__content">
+          <ul
+            class="mobile-links mobile-links--level--0"
+            data-collapse
+            data-collapse-opened-class="mobile-links__item--open"
+          >
+            <!-- Home Link -->
+            <li class="mobile-links__item" data-collapse-item>
+              <div class="mobile-links__item-title">
+                <a href="index.html" class="mobile-links__item-link">Home</a>
+              </div>
+            </li>
+
+            <!-- Hair Categories Dropdown -->
+            <li class="mobile-links__item" data-collapse-item>
+              <div class="mobile-links__item-title">
+                <a href="#" class="mobile-links__item-link">Hair Categories</a>
+                <button
+                  class="mobile-links__item-toggle"
+                  type="button"
+                  data-collapse-trigger
+                >
+                  <svg
+                    class="mobile-links__item-arrow"
+                    width="12px"
+                    height="7px"
+                  >
+                    <use
+                      xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="mobile-links__item-sub-links" data-collapse-content>
+                <ul class="mobile-links mobile-links--level--1">
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="index.html" class="mobile-links__item-link"
+                        >Straight</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="index.html" class="mobile-links__item-link"
+                        >Curly</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="index.html" class="mobile-links__item-link"
+                        >Bounce</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="index.html" class="mobile-links__item-link"
+                        >Wavy</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <!-- Price List / Catalog Link -->
+            <li class="mobile-links__item" data-collapse-item>
+              <div class="mobile-links__item-title">
+                <a href="index.html" class="mobile-links__item-link"
+                  >Prices & Catalog</a
+                >
+              </div>
+            </li>
+
+            <!-- Institutional Pages Dropdown -->
+            <li class="mobile-links__item" data-collapse-item>
+              <div class="mobile-links__item-title">
+                <a href="#" class="mobile-links__item-link">Pages</a>
+                <button
+                  class="mobile-links__item-toggle"
+                  type="button"
+                  data-collapse-trigger
+                >
+                  <svg
+                    class="mobile-links__item-arrow"
+                    width="12px"
+                    height="7px"
+                  >
+                    <use
+                      xlink:href="images/sprite.svg#arrow-rounded-down-12x7"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="mobile-links__item-sub-links" data-collapse-content>
+                <ul class="mobile-links mobile-links--level--1">
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="about-us.html" class="mobile-links__item-link"
+                        >About Us</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="contact-us.html" class="mobile-links__item-link"
+                        >Contact Us</a
+                      >
+                    </div>
+                  </li>
+                  <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                      <a href="faq.html" class="mobile-links__item-link">FAQ</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- mobilemenu / end -->
+     <!-- site -->
+    <div class="site">
+      <!-- mobile site__header -->
+      <header class="site__header d-lg-none">
+        <div class="mobile-header mobile-header--sticky mobile-header--stuck">
+          <div class="mobile-header__panel">
+            <div class="container">
+              <div class="mobile-header__body">
+                <button
+                  class="mobile-header__menu-button"
+                  type="button"
+                  aria-label="Open menu"
+                >
+                  <svg width="18px" height="14px">
+                    <use xlink:href="images/sprite.svg#menu-18x14"></use>
+                  </svg>
+                </button>
+
+                <a
+                  class="mobile-header__logo"
+                  href="index.html"
+                  aria-label="Home"
+                >
+                  <img src="images/ChellaHairs.svg" alt="" />
+                </a>
+
+                <div class="mobile-header__indicators">
+                  <div class="nav-panel__indicators">
+                    <a href="https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig" target="_blank">
+                      <div
+                        style="
+                          background-color: #3d464d;
+                          color: #fff;
+                          padding: 8px 20px;
+                          border-radius: 20px;
+                          font-size: 14px;
+                          display: flex;
+                          align-items: center;
+                          gap: 10px;
+                        "
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-whatsapp"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
+                          />
+                        </svg>
+                        Place Order
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- mobile site__header / end -->
+       <!-- desktop site__header -->
+      <header class="site__header d-lg-block d-none">
+        <div class="site-header">
+          <!-- .topbar -->
+          <div class="site-header__topbar topbar">
+            <div class="topbar__container container">
+              <div class="topbar__row">
+                <div class="topbar__item topbar__item--link">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-geo-alt"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"
+                    />
+                    <path
+                      d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+                    />
+                  </svg>
+                  <a class="topbar-link" href="#" style="margin-left: 10px"
+                    >Lagos State, Nigeria</a
+                  >
+                </div>
+
+                <div class="topbar__spring"></div>
+                <div class="topbar__item">
+                  <div class="topbar-dropdown">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-telephone-inbound"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0m-12.2 1.182a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
+                      />
+                    </svg>
+                    <button class="topbar-dropdown__btn" type="button">
+                      +23498738437487
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- .topbar / end -->
+
+          <div class="site-header__nav-panel">
+            <div class="nav-panel">
+              <div class="nav-panel__container container">
+                <div class="nav-panel__row">
+                  <div class="nav-panel__logo">
+                    <a href="index.html">
+                      <img src="images/ChellaHairs.svg" alt="" />
+                    </a>
+                  </div>
+                  <!-- .nav-links -->
+                  <!-- NAV LINKS -->
+                  <div class="nav-panel__nav-links nav-links">
+                    <ul class="nav-links__list">
+                      <!-- HOME -->
+                      <li class="nav-links__item">
+                        <a href="index.html"><span>Home</span></a>
+                      </li>
+                      <li class="nav-links__item">
+                        <a href="about-us.html"><span>About Us</span></a>
+                      </li>
+                      <!-- CATEGORIES -->
+                      <!-- <li class="nav-links__item nav-links__item--with-submenu">
+                        <a href="#"><span>Categories</span></a>
+                        <div class="nav-links__menu">
+                          <ul class="menu menu--layout--classic">
+                            <li><a href="#">Straight</a></li>
+                            <li><a href="#">Curly</a></li>
+                            <li><a href="#">Bounce</a></li>
+                            <li><a href="#">Wavy</a></li>
+                          </ul>
+                        </div>
+                      </li> -->
+                      <!-- CONTACT -->
+                      <li class="nav-links__item">
+                        <a href="contact-us.html"><span>Contact Us</span></a>
+                      </li>
+                      <!-- REFUND POLICY -->
+                      <li class="nav-links__item">
+                        <a href="refund-policy.html"
+                          ><span>Refund Policy</span></a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- .nav-links / end -->
+                  <div class="nav-panel__indicators">
+                    <div class="indicator indicator--trigger--click">
+                      <div
+                        style="
+                          margin-left: auto;
+                          display: flex;
+                          align-items: center;
+                        "
+                      >
+                        <a href="https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig" target="_blank">
+                          <div
+                            style="
+                              background-color: #3d464d;
+                              color: #fff;
+                              padding: 8px 20px;
+                              border-radius: 20px;
+                              font-size: 14px;
+                              display: flex;
+                              align-items: center;
+                              gap: 10px;
+                            "
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              fill="currentColor"
+                              class="bi bi-whatsapp"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
+                              />
+                            </svg>
+                            Place Order
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- desktop site__header / end -->
+       
+      <!-- site__body -->
+      <div class="site__body">
+        <!-- .block-slideshow -->
+        <div class="block-slideshow block-slideshow--layout--full block">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="block-slideshow__body">
+                  <div class="owl-carousel">
+                    <a class="block-slideshow__slide" href="#"
+                      ><div
+                        class="block-slideshow__slide-image block-slideshow__slide-image--desktop"
+                        style="
+                          background-image: url(&quot;images/slides/slide-1-full.jpg&quot;);
+                        "
+                      ></div>
+                      <div
+                        class="block-slideshow__slide-image block-slideshow__slide-image--mobile"
+                        style="
+                          background-image: url(&quot;images/slides/slide-1-mobile.jpg&quot;);
+                        "
+                      ></div>
+                      <div class="block-slideshow__slide-content">
+                        <div class="block-slideshow__slide-title">
+                          Flawless Hair,<br />Effortless Beauty
+                        </div>
+                        <div class="block-slideshow__slide-text">
+                          Premium wigs & bundles crafted for elegance and
+                          comfort.<br />
+                          Designed to elevate your everyday beauty effortlessly.
+                        </div>
+                        <div class="block-slideshow__slide-button">
+                          <span
+                            class="btn btn-primary btn-lg"
+                            onclick="
+                              event.stopPropagation();
+                              window.open(
+                                'https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig',
+                                '_blank',
+                              );
+                            "
+                            style="cursor: pointer"
+                          >
+                            <span style="margin-right: 5px"
+                              ><svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-whatsapp"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
+                                />
+                              </svg>
+                            </span>
+                            Shop Now
+                          </span>
+                        </div>
+                      </div></a
+                    >
+                    <a class="block-slideshow__slide" href="#"
+                      ><div
+                        class="block-slideshow__slide-image block-slideshow__slide-image--desktop"
+                        style="
+                          background-image: url(&quot;images/slides/slide-2-full.jpg&quot;);
+                        "
+                      ></div>
+                      <div
+                        class="block-slideshow__slide-image block-slideshow__slide-image--mobile"
+                        style="
+                          background-image: url(&quot;images/slides/slide-2-mobile.jpg&quot;);
+                        "
+                      ></div>
+                      <div class="block-slideshow__slide-content">
+                        <div class="block-slideshow__slide-title">
+                          Look Good. Feel Confident.<br />Be Chella
+                        </div>
+                        <div class="block-slideshow__slide-text">
+                          From sleek straight to bold curls, find your perfect
+                          texture.<br />
+                        </div>
+                        <div class="block-slideshow__slide-button">
+                          <span
+                            class="btn btn-primary btn-lg"
+                            onclick="
+                              event.stopPropagation();
+                              window.open(
+                                'https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig',
+                                '_blank',
+                              );
+                            "
+                            style="cursor: pointer"
+                          >
+                            <span style="margin-right: 5px"
+                              ><svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-whatsapp"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
+                                />
+                              </svg>
+                            </span>
+                            Shop Now
+                          </span>
+                        </div>
+                      </div></a
+                    >
+                    <a class="block-slideshow__slide" href="#"
+                      ><div
+                        class="block-slideshow__slide-image block-slideshow__slide-image--desktop"
+                        style="
+                          background-image: url(&quot;images/slides/slide-3-full.jpg&quot;);
+                        "
+                      ></div>
+                      <div
+                        class="block-slideshow__slide-image block-slideshow__slide-image--mobile"
+                        style="
+                          background-image: url(&quot;images/slides/slide-3-mobile.jpg&quot;);
+                        "
+                      ></div>
+                      <div class="block-slideshow__slide-content">
+                        <div class="block-slideshow__slide-title">
+                          Sleek, Curly & Kinky<br />All In One Place
+                        </div>
+                        <div class="block-slideshow__slide-text">
+                          Experience hair that looks natural and feels
+                          luxurious.<br />
+                          Confidence begins with the way you show up every day.
+                        </div>
+                        <div class="block-slideshow__slide-button">
+                          <span
+                            class="btn btn-primary btn-lg"
+                            onclick="
+                              event.stopPropagation();
+                              window.open(
+                                'https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig',
+                                '_blank',
+                              );
+                            "
+                            style="cursor: pointer"
+                          >
+                            <span style="margin-right: 5px"
+                              ><svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-whatsapp"
+                                viewBox="0 0 16 16"
+                              >
+                                <path
+                                  d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
+                                />
+                              </svg>
+                            </span>
+                            Shop Now
+                          </span>
+                        </div>
+                      </div></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <style>
+          @media (max-width: 767px) {
+            .block-slideshow__slide-text {
+              display: block !important;
+              font-size: 13px;
+              line-height: 1.4;
+              margin-top: 8px;
+            }
+          }
+        </style>
+        <!-- .block-slideshow / end --><!-- .block-features -->
+        <div class="block block-features block-features--layout--boxed">
+          <div class="container">
+            <div class="block-features__list">
+              <div class="block-features__item">
+                <div class="block-features__icon">
+                  <svg width="48px" height="48px">
+                    <use
+                      xlink:href="images/sprite.svg#fi-free-delivery-48"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="block-features__content">
+                  <div class="block-features__title">Free Shipping</div>
+                  <div class="block-features__subtitle">
+                    For orders from ₦500,000
+                  </div>
+                </div>
+              </div>
+              <div class="block-features__divider"></div>
+              <div class="block-features__item">
+                <div class="block-features__icon">
+                  <svg width="48px" height="48px">
+                    <use xlink:href="images/sprite.svg#fi-24-hours-48"></use>
+                  </svg>
+                </div>
+                <div class="block-features__content">
+                  <div class="block-features__title">Support 24/7</div>
+                  <div class="block-features__subtitle">
+                    Send us message anytime
+                  </div>
+                </div>
+              </div>
+              <div class="block-features__divider"></div>
+              <div class="block-features__item">
+                <div class="block-features__icon">
+                  <svg width="48px" height="48px">
+                    <use
+                      xlink:href="images/sprite.svg#fi-payment-security-48"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="block-features__content">
+                  <div class="block-features__title">100% Safety</div>
+                  <div class="block-features__subtitle">
+                    Only secure payments
+                  </div>
+                </div>
+              </div>
+              <div class="block-features__divider"></div>
+              <div class="block-features__item">
+                <div class="block-features__icon">
+                  <svg width="48px" height="48px">
+                    <use xlink:href="images/sprite.svg#fi-tag-48"></use>
+                  </svg>
+                </div>
+                <div class="block-features__content">
+                  <div class="block-features__title">Hot Offers</div>
+                  <div class="block-features__subtitle">
+                    Discounts up to 20%
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <style>
+          .product-card__image {
+            width: 225px; /* adjust as you like */
+            height: 250px; /* adjust as you like */
+            overflow: hidden;
+            border-radius: 8px; /* optional for nice edges */
+          }
+
+          .product-card__image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* keeps image nice without stretching */
+            display: block;
+          }
+        </style> -->
+        
+        <style>
+  /* Leave your default desktop styles exactly as they are */
+  .product-card__image2 {
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  .product-card__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* Target ONLY mobile screens (767px wide and below) */
+  @media (max-width: 767px) {
+    .product-card__image2 {
+      width: 100% !important;        /* Forces the container to stretch full width */
+      max-width: 100% !important;    /* Prevents any max-width constraints */
+      height: 350px !important;      /* Sets a balanced height for mobile screens */
+    }
+    
+    .product-card__image2 a,
+    .product-card__image img {
+      width: 100% !important;
+      height: 100% !important;
+      display: block !important;
+    }
+  }
+</style>
+        <!-- Our Hairs list  -->
+
+        <div class="block block-products block-products--layout--large-last">
+          <div class="container">
+            <div class="block-header">
+              <h3 class="block-header__title">Best Selling Products</h3>
+              <div class="block-header__divider"></div>
+            </div>
+            <div class="block-products__body">
+              <div class="block-products__list">
+                <div class="block-products__list-item">
+                  <div class="product-card">
+                    <button class="product-card__quickview" type="button">
+                      <svg width="16px" height="16px">
+                        <use xlink:href="images/sprite.svg#quickview-16"></use>
+                      </svg>
+                      <span class="fake-svg-icon"></span>
+                    </button>
+                    <div class="product-card__badges-list">
+                      <div class="product-card__badge product-card__badge--hot">
+                        Hot
+                      </div>
+                    </div>
+                    <div class="product-card__image">
+                      <a href="#"
+                        ><img src="images/products/product-1.jpeg" alt=""
+                      /></a>
+                    </div>
+                    <div class="product-card__info">
+                      <div class="product-card__name">
+                        <a href="product.html"
+                          >10" 5*5 Vietnamese bone straight</a
+                        >
+                      </div>
+                      <div class="product-card__rating">
+                        <div class="rating">
+                          <div class="rating__body">
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-card__rating-legend">
+                          11 Reviews
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-card__actions">
+                      <div class="product-card__availability">
+                        Availability: <span class="text-success">In Stock</span>
+                      </div>
+                      <div class="product-card__prices">₦150,000.00</div>
+                      <div class="product-card__buttons">
+                        <button
+                          class="btn btn-primary product-card__addtocart"
+                          type="button"
+                          onclick="
+                            event.stopPropagation();
+                            window.open(
+                              'https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig',
+                              '_blank',
+                            );
+                          "
+                          style="cursor: pointer"
+                        >
+                          Place Order Via WhatsApp
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="block-products__list-item">
+                  <div class="product-card">
+                    <button class="product-card__quickview" type="button">
+                      <svg width="16px" height="16px">
+                        <use xlink:href="images/sprite.svg#quickview-16"></use>
+                      </svg>
+                      <span class="fake-svg-icon"></span>
+                    </button>
+                    <div class="product-card__image">
+                      <a href="product.html"
+                        ><img src="images/products/product-3.jpeg" alt=""
+                      /></a>
+                    </div>
+                    <div class="product-card__info">
+                      <div class="product-card__name">
+                        <a href="product.html">Full Frontal SDD Tiwa Wig</a>
+                      </div>
+                      <div class="product-card__rating">
+                        <div class="rating">
+                          <div class="rating__body">
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div class="rating__star rating__star--only-edge">
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-card__rating-legend">9 Reviews</div>
+                      </div>
+                    </div>
+                    <div class="product-card__actions">
+                      <div class="product-card__availability">
+                        Availability: <span class="text-success">In Stock</span>
+                      </div>
+                      <div class="product-card__prices">₦40,000.00</div>
+                      <div class="product-card__buttons">
+                        <button
+                          class="btn btn-primary product-card__addtocart"
+                          type="button"
+                          onclick="
+                            event.stopPropagation();
+                            window.open(
+                              'https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig',
+                              '_blank',
+                            );
+                          "
+                          style="cursor: pointer"
+                        >
+                          Place Order Via WhatsApp
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="block-products__list-item">
+                  <div class="product-card">
+                    <button class="product-card__quickview" type="button">
+                      <svg width="16px" height="16px">
+                        <use xlink:href="images/sprite.svg#quickview-16"></use>
+                      </svg>
+                      <span class="fake-svg-icon"></span>
+                    </button>
+                    <div class="product-card__badges-list">
+                      <div
+                        class="product-card__badge product-card__badge--sale"
+                      >
+                        Sale
+                      </div>
+                    </div>
+                    <div class="product-card__image">
+                      <a href="product.html"
+                        ><img src="images/products/product-8.jpeg" alt=""
+                      /></a>
+                    </div>
+                    <div class="product-card__info">
+                      <div class="product-card__name">
+                        <a href="product.html">Full Frontal wig </a>
+                      </div>
+                      <div class="product-card__rating">
+                        <div class="rating">
+                          <div class="rating__body">
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div class="rating__star rating__star--only-edge">
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div class="rating__star rating__star--only-edge">
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-card__rating-legend">7 Reviews</div>
+                      </div>
+                    </div>
+                    <div class="product-card__actions">
+                      <div class="product-card__availability">
+                        Availability: <span class="text-success">In Stock</span>
+                      </div>
+                      <div class="product-card__prices">₦35,000.00</div>
+                      <div class="product-card__buttons">
+                        <button
+                          class="btn btn-primary product-card__addtocart"
+                          type="button"
+                          onclick="
+                            event.stopPropagation();
+                            window.open(
+                              'https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig',
+                              '_blank',
+                            );
+                          "
+                          style="cursor: pointer"
+                        >
+                          Place Order Via WhatsApp
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="block-products__list-item">
+                  <div class="product-card">
+                    <button class="product-card__quickview" type="button">
+                      <svg width="16px" height="16px">
+                        <use xlink:href="images/sprite.svg#quickview-16"></use>
+                      </svg>
+                      <span class="fake-svg-icon"></span>
+                    </button>
+                    <div class="product-card__image">
+                      <a href="product.html"
+                        ><img src="images/products/product-5.jpeg" alt=""
+                      /></a>
+                    </div>
+                    <div class="product-card__info">
+                      <div class="product-card__name">
+                        <a href="product.html">12" 5*5 sdd piano bounce</a>
+                      </div>
+                      <div class="product-card__rating">
+                        <div class="rating">
+                          <div class="rating__body">
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div class="rating__star rating__star--only-edge">
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-card__rating-legend">9 Reviews</div>
+                      </div>
+                    </div>
+                    <div class="product-card__actions">
+                      <div class="product-card__availability">
+                        Availability: <span class="text-success">In Stock</span>
+                      </div>
+                      <div class="product-card__prices">₦150,000.00</div>
+                      <div class="product-card__buttons">
+                        <button
+                          class="btn btn-primary product-card__addtocart"
+                          type="button"
+                          onclick="
+                            event.stopPropagation();
+                            window.open(
+                              'https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig',
+                              '_blank',
+                            );
+                          "
+                          style="cursor: pointer"
+                        >
+                          Place Order Via WhatsApp
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="block-products__list-item">
+                  <div class="product-card">
+                    <button class="product-card__quickview" type="button">
+                      <svg width="16px" height="16px">
+                        <use xlink:href="images/sprite.svg#quickview-16"></use>
+                      </svg>
+                      <span class="fake-svg-icon"></span>
+                    </button>
+                    <div class="product-card__image">
+                      <a href="product.html"
+                        ><img src="images/products/product-6.jpeg" alt=""
+                      /></a>
+                    </div>
+                    <div class="product-card__info">
+                      <div class="product-card__name">
+                        <a href="product.html"
+                          >20" Full frontal sdd bounce wig</a
+                        >
+                      </div>
+                      <div class="product-card__rating">
+                        <div class="rating">
+                          <div class="rating__body">
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div class="rating__star rating__star--only-edge">
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div class="rating__star rating__star--only-edge">
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-card__rating-legend">7 Reviews</div>
+                      </div>
+                    </div>
+                    <div class="product-card__actions">
+                      <div class="product-card__availability">
+                        Availability: <span class="text-success">In Stock</span>
+                      </div>
+                      <div class="product-card__prices">₦168,000.00</div>
+                      <div class="product-card__buttons">
+                        <button
+                          class="btn btn-primary product-card__addtocart"
+                          type="button"
+                          onclick="
+                            event.stopPropagation();
+                            window.open(
+                              'https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig',
+                              '_blank',
+                            );
+                          "
+                          style="cursor: pointer"
+                        >
+                          Place Order Via WhatsApp
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="block-products__list-item">
+                  <div class="product-card">
+                    <button class="product-card__quickview" type="button">
+                      <svg width="16px" height="16px">
+                        <use xlink:href="images/sprite.svg#quickview-16"></use>
+                      </svg>
+                      <span class="fake-svg-icon"></span>
+                    </button>
+                    <div class="product-card__image">
+                      <a href="product.html"
+                        ><img src="images/products/product-7.jpeg" alt=""
+                      /></a>
+                    </div>
+                    <div class="product-card__info">
+                      <div class="product-card__name">
+                        <a href="product.html">18" 5*5 sdd bounce wig </a>
+                      </div>
+                      <div class="product-card__rating">
+                        <div class="rating">
+                          <div class="rating__body">
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div class="rating__star rating__star--only-edge">
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div class="rating__star rating__star--only-edge">
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div class="rating__star rating__star--only-edge">
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-card__rating-legend">4 Reviews</div>
+                      </div>
+                    </div>
+                    <div class="product-card__actions">
+                      <div class="product-card__availability">
+                        Availability: <span class="text-success">In Stock</span>
+                      </div>
+                      <div class="product-card__prices">₦165,000.00</div>
+                      <div class="product-card__buttons">
+                        <button
+                          class="btn btn-primary product-card__addtocart"
+                          type="button"
+                          onclick="
+                            event.stopPropagation();
+                            window.open(
+                              'https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig',
+                              '_blank',
+                            );
+                          "
+                          style="cursor: pointer"
+                        >
+                          Place Order Via WhatsApp
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <style>
+                .product-card__image2 {
+                  width: 400px; /* adjust as you like */
+                  height: 500px; /* adjust as you like */
+                  overflow: hidden;
+                  border-radius: 8px; /* optional for nice edges */
+                }
+
+                .product-card__image img {
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover; /* keeps image nice without stretching */
+                  display: block;
+                }
+              </style>
+              <!-- faetured  -->
+              <div class="block-products__featured">
+                <div class="block-products__featured-item">
+                  <div class="product-card">
+                    <button class="product-card__quickview" type="button">
+                      <svg width="16px" height="16px">
+                        <use xlink:href="images/sprite.svg#quickview-16"></use>
+                      </svg>
+                      <span class="fake-svg-icon"></span>
+                    </button>
+                    <div class="product-card__badges-list">
+                      <div class="product-card__badge product-card__badge--new">
+                        New
+                      </div>
+                    </div>
+                    <div class="product-card__image product-card__image2">
+                      <a href="product.html"
+                        ><img src="images/products/product-9.jpeg" alt=""
+                      /></a>
+                    </div>
+                    <div class="product-card__info">
+                      <div class="product-card__name">
+                        <a href="product.html">Full frontal chioma wig</a>
+                      </div>
+                      <div class="product-card__rating">
+                        <div class="rating">
+                          <div class="rating__body">
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div class="rating__star rating__star--only-edge">
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-card__rating-legend">9 Reviews</div>
+                      </div>
+                    </div>
+                    <div class="product-card__actions">
+                      <div class="product-card__availability">
+                        Availability: <span class="text-success">In Stock</span>
+                      </div>
+                      <div class="product-card__prices">₦40,000.00</div>
+                      <div class="product-card__buttons">
+                        <button
+                          class="btn btn-primary product-card__addtocart"
+                          type="button"
+                          onclick="
+                            event.stopPropagation();
+                            window.open(
+                              'https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig',
+                              '_blank',
+                            );
+                          "
+                          style="cursor: pointer"
+                        >
+                          Place Order Via WhatsApp
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- .block-features / end --><!-- .block-products-carousel -->
+
+        <div class="block block-banner">
+          <div class="container">
+            <a
+              href="https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig"
+              class="block-banner__body"
+              target="_blank"
+              ><div
+                class="block-banner__image block-banner__image--desktop"
+                style="
+                  background-image: url(&quot;images/banners/banner-1.jpg&quot;);
+                "
+              ></div>
+              <div
+                class="block-banner__image block-banner__image--mobile"
+                style="
+                  background-image: url(&quot;images/banners/banner-1-mobile.jpg&quot;);
+                "
+              ></div>
+            </a>
+          </div>
+        </div>
+        <!-- .block-banner / end --><!-- .block-products -->
+
+        <div class="block block-products block-products--layout--large-last">
+          <div class="container">
+            <div class="block-header">
+              <h3 class="block-header__title">Featured Products</h3>
+              <div class="block-header__divider"></div>
+            </div>
+            <div class="block-products__body">
+              <div class="block-products__list">
+                <div class="block-products__list-item">
+                  <div class="product-card">
+                    <button class="product-card__quickview" type="button">
+                      <svg width="16px" height="16px">
+                        <use xlink:href="images/sprite.svg#quickview-16"></use>
+                      </svg>
+                      <span class="fake-svg-icon"></span>
+                    </button>
+                    <div class="product-card__badges-list">
+                      <div class="product-card__badge product-card__badge--hot">
+                        Hot
+                      </div>
+                    </div>
+                    <div class="product-card__image">
+                      <a href="#"
+                        ><img src="images/products/product-10.jpeg" alt=""
+                      /></a>
+                    </div>
+                    <div class="product-card__info">
+                      <div class="product-card__name">
+                        <a href="product.html">12" 5*5 sdd bounce wig</a>
+                      </div>
+                      <div class="product-card__rating">
+                        <div class="rating">
+                          <div class="rating__body">
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-card__rating-legend">
+                          11 Reviews
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-card__actions">
+                      <div class="product-card__availability">
+                        Availability: <span class="text-success">In Stock</span>
+                      </div>
+                      <div class="product-card__prices">₦125,000.00</div>
+                      <div class="product-card__buttons">
+                        <button
+                          class="btn btn-primary product-card__addtocart"
+                          type="button"
+                          onclick="
+                            event.stopPropagation();
+                            window.open(
+                              'https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig',
+                              '_blank',
+                            );
+                          "
+                          style="cursor: pointer"
+                        >
+                          Place Order Via WhatsApp
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="block-products__list-item">
+                  <div class="product-card">
+                    <button class="product-card__quickview" type="button">
+                      <svg width="16px" height="16px">
+                        <use xlink:href="images/sprite.svg#quickview-16"></use>
+                      </svg>
+                      <span class="fake-svg-icon"></span>
+                    </button>
+                    <div class="product-card__image">
+                      <a href="product.html"
+                        ><img src="images/products/product-11.jpeg" alt=""
+                      /></a>
+                    </div>
+                    <div class="product-card__info">
+                      <div class="product-card__name">
+                        <a href="product.html"
+                          >8" 2*4 Vietnamese bone straight
+                        </a>
+                      </div>
+                      <div class="product-card__rating">
+                        <div class="rating">
+                          <div class="rating__body">
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div class="rating__star rating__star--only-edge">
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-card__rating-legend">9 Reviews</div>
+                      </div>
+                    </div>
+                    <div class="product-card__actions">
+                      <div class="product-card__availability">
+                        Availability: <span class="text-success">In Stock</span>
+                      </div>
+                      <div class="product-card__prices">₦110,000.00</div>
+                      <div class="product-card__buttons">
+                        <button
+                          class="btn btn-primary product-card__addtocart"
+                          type="button"
+                          onclick="
+                            event.stopPropagation();
+                            window.open(
+                              'https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig',
+                              '_blank',
+                            );
+                          "
+                          style="cursor: pointer"
+                        >
+                          Place Order Via WhatsApp
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="block-products__list-item">
+                  <div class="product-card">
+                    <button class="product-card__quickview" type="button">
+                      <svg width="16px" height="16px">
+                        <use xlink:href="images/sprite.svg#quickview-16"></use>
+                      </svg>
+                      <span class="fake-svg-icon"></span>
+                    </button>
+                    <div class="product-card__badges-list">
+                      <div
+                        class="product-card__badge product-card__badge--sale"
+                      >
+                        Sale
+                      </div>
+                    </div>
+                    <div class="product-card__image">
+                      <a href="product.html"
+                        ><img src="images/products/product-12.jpeg" alt=""
+                      /></a>
+                    </div>
+                    <div class="product-card__info">
+                      <div class="product-card__name">
+                        <a href="product.html">12" sdd pixie fringe </a>
+                      </div>
+                      <div class="product-card__rating">
+                        <div class="rating">
+                          <div class="rating__body">
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div class="rating__star rating__star--only-edge">
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div class="rating__star rating__star--only-edge">
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-card__rating-legend">7 Reviews</div>
+                      </div>
+                    </div>
+                    <div class="product-card__actions">
+                      <div class="product-card__availability">
+                        Availability: <span class="text-success">In Stock</span>
+                      </div>
+                      <div class="product-card__prices">₦110,000.00</div>
+                      <div class="product-card__buttons">
+                        <button
+                          class="btn btn-primary product-card__addtocart"
+                          type="button"
+                          onclick="
+                            event.stopPropagation();
+                            window.open(
+                              'https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig',
+                              '_blank',
+                            );
+                          "
+                          style="cursor: pointer"
+                        >
+                          Place Order Via WhatsApp
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="block-products__list-item">
+                  <div class="product-card">
+                    <button class="product-card__quickview" type="button">
+                      <svg width="16px" height="16px">
+                        <use xlink:href="images/sprite.svg#quickview-16"></use>
+                      </svg>
+                      <span class="fake-svg-icon"></span>
+                    </button>
+                    <div class="product-card__image">
+                      <a href="product.html"
+                        ><img src="images/products/product-13.jpeg" alt=""
+                      /></a>
+                    </div>
+                    <div class="product-card__info">
+                      <div class="product-card__name">
+                        <a href="product.html">12" omotola wig</a>
+                      </div>
+                      <div class="product-card__rating">
+                        <div class="rating">
+                          <div class="rating__body">
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div class="rating__star rating__star--only-edge">
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-card__rating-legend">9 Reviews</div>
+                      </div>
+                    </div>
+                    <div class="product-card__actions">
+                      <div class="product-card__availability">
+                        Availability: <span class="text-success">In Stock</span>
+                      </div>
+                      <div class="product-card__prices">₦68,000.00</div>
+                      <div class="product-card__buttons">
+                        <button
+                          class="btn btn-primary product-card__addtocart"
+                          type="button"
+                          onclick="
+                            event.stopPropagation();
+                            window.open(
+                              'https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig',
+                              '_blank',
+                            );
+                          "
+                          style="cursor: pointer"
+                        >
+                          Place Order Via WhatsApp
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="block-products__list-item">
+                  <div class="product-card">
+                    <button class="product-card__quickview" type="button">
+                      <svg width="16px" height="16px">
+                        <use xlink:href="images/sprite.svg#quickview-16"></use>
+                      </svg>
+                      <span class="fake-svg-icon"></span>
+                    </button>
+                    <div class="product-card__image">
+                      <a href="product.html"
+                        ><img src="images/products/product-14.jpeg" alt=""
+                      /></a>
+                    </div>
+                    <div class="product-card__info">
+                      <div class="product-card__name">
+                        <a href="product.html"
+                          >10" sdd Vietnamese bone straight
+                        </a>
+                      </div>
+                      <div class="product-card__rating">
+                        <div class="rating">
+                          <div class="rating__body">
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div class="rating__star rating__star--only-edge">
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div class="rating__star rating__star--only-edge">
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-card__rating-legend">7 Reviews</div>
+                      </div>
+                    </div>
+                    <div class="product-card__actions">
+                      <div class="product-card__availability">
+                        Availability: <span class="text-success">In Stock</span>
+                      </div>
+                      <div class="product-card__prices">₦115,000.00</div>
+                      <div class="product-card__buttons">
+                        <button
+                          class="btn btn-primary product-card__addtocart"
+                          type="button"
+                          onclick="
+                            event.stopPropagation();
+                            window.open(
+                              'https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig',
+                              '_blank',
+                            );
+                          "
+                          style="cursor: pointer"
+                        >
+                          Place Order Via WhatsApp
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="block-products__list-item">
+                  <div class="product-card">
+                    <button class="product-card__quickview" type="button">
+                      <svg width="16px" height="16px">
+                        <use xlink:href="images/sprite.svg#quickview-16"></use>
+                      </svg>
+                      <span class="fake-svg-icon"></span>
+                    </button>
+                    <div class="product-card__image">
+                      <a href="product.html"
+                        ><img src="images/products/product-15.jpeg" alt=""
+                      /></a>
+                    </div>
+                    <div class="product-card__info">
+                      <div class="product-card__name">
+                        <a href="product.html"
+                          >16" 5*5 Vietnamese bone straight
+                        </a>
+                      </div>
+                      <div class="product-card__rating">
+                        <div class="rating">
+                          <div class="rating__body">
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div class="rating__star rating__star--only-edge">
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div class="rating__star rating__star--only-edge">
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div class="rating__star rating__star--only-edge">
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-card__rating-legend">4 Reviews</div>
+                      </div>
+                    </div>
+                    <div class="product-card__actions">
+                      <div class="product-card__availability">
+                        Availability: <span class="text-success">In Stock</span>
+                      </div>
+                      <div class="product-card__prices">₦225,000.00</div>
+                      <div class="product-card__buttons">
+                        <button
+                          class="btn btn-primary product-card__addtocart"
+                          type="button"
+                          onclick="
+                            event.stopPropagation();
+                            window.open(
+                              'https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig',
+                              '_blank',
+                            );
+                          "
+                          style="cursor: pointer"
+                        >
+                          Place Order Via WhatsApp
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <style>
+                .product-card__image2 {
+                  width: 400px; /* adjust as you like */
+                  height: 500px; /* adjust as you like */
+                  overflow: hidden;
+                  border-radius: 8px; /* optional for nice edges */
+                }
+
+                .product-card__image img {
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover; /* keeps image nice without stretching */
+                  display: block;
+                }
+              </style>
+              <!-- faetured  -->
+              <div class="block-products__featured">
+                <div class="block-products__featured-item">
+                  <div class="product-card">
+                    <button class="product-card__quickview" type="button">
+                      <svg width="16px" height="16px">
+                        <use xlink:href="images/sprite.svg#quickview-16"></use>
+                      </svg>
+                      <span class="fake-svg-icon"></span>
+                    </button>
+                    <div class="product-card__badges-list">
+                      <div class="product-card__badge product-card__badge--new">
+                        New
+                      </div>
+                    </div>
+                    <div class="product-card__image product-card__image2">
+                      <a href="product.html"
+                        ><img src="images/products/product-16.jpeg" alt=""
+                      /></a>
+                    </div>
+                    <div class="product-card__info">
+                      <div class="product-card__name">
+                        <a href="product.html">28" full frontal yaki wig</a>
+                      </div>
+                      <div class="product-card__rating">
+                        <div class="rating">
+                          <div class="rating__body">
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star rating__star--active"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div
+                              class="rating__star rating__star--only-edge rating__star--active"
+                            >
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                            <svg
+                              class="rating__star"
+                              width="13px"
+                              height="12px"
+                            >
+                              <g class="rating__fill">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal"
+                                ></use>
+                              </g>
+                              <g class="rating__stroke">
+                                <use
+                                  xlink:href="images/sprite.svg#star-normal-stroke"
+                                ></use>
+                              </g>
+                            </svg>
+                            <div class="rating__star rating__star--only-edge">
+                              <div class="rating__fill">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                              <div class="rating__stroke">
+                                <div class="fake-svg-icon"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="product-card__rating-legend">9 Reviews</div>
+                      </div>
+                    </div>
+                    <div class="product-card__actions">
+                      <div class="product-card__availability">
+                        Availability: <span class="text-success">In Stock</span>
+                      </div>
+                      <div class="product-card__prices">₦165,000.00</div>
+                      <div class="product-card__buttons">
+                        <button
+                          class="btn btn-primary product-card__addtocart"
+                          type="button"
+                          onclick="
+                            event.stopPropagation();
+                            window.open(
+                              'https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig',
+                              '_blank',
+                            );
+                          "
+                          style="cursor: pointer"
+                        >
+                          Place Order Via WhatsApp
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- site__body / end -->
+
+      <!-- site__footer -->
+      <footer class="site__footer">
+        <div class="site-footer">
+          <div class="container">
+            <div class="site-footer__widgets">
+              <div class="row">
+                <!-- Column 1: About + Payment + Social -->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="site-footer__widget footer-contacts">
+                    <a href="index.html">
+                      <img src="images/ChellaHairs.svg" alt="" />
+                    </a>
+                    <div class="footer-contacts__text">
+                      Chellahairs is your trusted brand for quality and stylish
+                      hair. We deliver premium hair products that enhance your
+                      beauty and confidence.
+                    </div>
+
+                    <!-- Payment -->
+                    <h5 class="footer-links__title mt-3">Payment Method</h5>
+                    <ul class="footer-links__list">
+                      <li class="footer-links__item">
+                        <span class="footer-links__link"
+                          >Bank Transfer Only</span
+                        >
+                      </li>
+                    </ul>
+
+                    <!-- Social -->
+                    <div
+                      class="footer-newsletter__text footer-newsletter__text--social"
+                    >
+                      Follow us
+                    </div>
+                    
+ <ul class="footer-newsletter__social-links" style="display: flex !important;">
+                      <li
+                        class="footer-newsletter__social-link footer-newsletter__social-link--instagram"
+                      >
+                        <a href="https://www.instagram.com/@_chellahairs" target="_blank">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                        
+                      </li>
+                      <li
+                        class="footer-newsletter__social-link footer-newsletter__social-link--instagram"
+                      >
+                       
+                        <a href="https://wa.me/2348118839354?text=Hi%20I%20want%20to%20order%20a%20wig" target="_blank">
+                          <i class="fab fa-whatsapp"></i>
+                        </a>
+                      </li>
+                      <li
+                        class="footer-newsletter__social-link footer-newsletter__social-link--instagram"
+                      >
+                       
+                        <a href="https://www.tiktok.com/@chella_hairs
+" target="_blank">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+  <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+</svg>
+                        </a>
+                      </li>
+                     
+                    </ul>
+                   
+                   
+                  </div>
+                </div>
+
+                <!-- Column 2: Contact -->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="site-footer__widget footer-contacts">
+                    <h5 class="footer-contacts__title">Contact Us</h5>
+                    <ul class="footer-contacts__contacts">
+                      <li>
+                        <i
+                          class="footer-contacts__icon fas fa-globe-americas"
+                        ></i>
+                        Lagos State, Nigeria
+                      </li>
+                      
+                      <li>
+                        <i class="footer-contacts__icon fas fa-mobile-alt"></i>
+                        08118839354
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- Column 3: Links -->
+                <div class="col-12 col-md-12 col-lg-4">
+                  <div class="site-footer__widget footer-links">
+                    <h5 class="footer-links__title">Quick Links</h5>
+                    <ul class="footer-links__list">
+                      <li class="footer-links__item">
+                        <a href="index.html" class="footer-links__link">Home</a>
+                      </li>
+                      <li class="footer-links__item">
+                        <a href="about-us.html" class="footer-links__link">About Us</a>
+                      </li>
+                      <li class="footer-links__item">
+                        <a href="contact-us.html" class="footer-links__link">Contact Us</a>
+                      </li>
+                      <li class="footer-links__item">
+                        <a href="faq.html" class="footer-links__link"
+                          >FAQs</a
+                        >
+                      </li>
+                      <li class="footer-links__item">
+                        <a href="terms-and-conditions.html" class="footer-links__link"> Terms of Use</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bottom -->
+            <div class="site-footer__bottom">
+              <center>
+
+                <div class="site-footer__copyright" style="text-align: center !important; margin-top: 10px;">
+                  &copy; Chellahairs. All rights reserved. <b>Designed by <a href="https://www.linkedin.com/in/kanucloud/" target="_blank" style="color: #FFD333;">Kanu Chisom</a></b>
+                </div>
+              </center>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- site__footer / end -->
+    </div>
+    <!-- site / end -->
+  </body>
+</html>
